@@ -11,8 +11,6 @@ function transformNode(node: ts.Node, typeChecker: ts.TypeChecker): ts.Node | un
 	const operator = node.argumentExpression.operator;
 	if (operator !== ts.SyntaxKind.MinusToken) return;
 
-	console.log('Found')
-
 	return factory.createElementAccessExpression(
 		node.expression,
 		factory.createBinaryExpression(
