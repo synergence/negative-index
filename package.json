@@ -1,0 +1,22 @@
+{
+	"name": "rbxts-negative-index",
+	"version": "1.0.0",
+	"description": "Allows using negative numbers on arrays",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/synergence/negative-index.git"
+	},
+	"bugs": {
+		"url": "https://github.com/synergence/negative-index/issues"
+	},
+	"homepage": "https://github.com/synergence/negative-index#readme",
+	"dependencies": {
+		"typescript": "^4.3.5"
+	}
+}
