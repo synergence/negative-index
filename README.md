@@ -1,3 +1,10 @@
+Example of how this works:
+```ts
+const yourArray = ['a', 'b', 'c'];
+const last = yourArray[-0];
+const secondLast = yourArray[-1];
+```
+
 To install, put this in your tsconfig.json of your roblox-ts project under compiler options:
 ```json
 "plugins": [
