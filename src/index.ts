@@ -23,7 +23,7 @@ function transformNode(node: ts.Node, typeChecker: ts.TypeChecker): ts.Node | un
 				[]
 			),
 			factory.createToken(ts.SyntaxKind.MinusToken),
-			factory.createNumericLiteral(Number(node.argumentExpression.operand.getText()) + 1)
+			factory.createNumericLiteral(Number(node.argumentExpression.operand.getText()))
 		)
 	);
 }
